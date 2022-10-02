@@ -12,12 +12,6 @@ public class ParseNewListings {
 
     private List<String> endpointList = new ArrayList<>();
 
-    // theese endpoints can also be added to the PrivateConfigMain, if the DNS works
-    // https://www.binancezh.com/gateway-api/v1/public/cms/article/list/query?type=1&pageNo=1&pageSize=1
-    // https://www.binancezh.com/bapi/composite/v1/public/cms/article/catalog/list/query?catalogId=48&pageNo=1&pageSize=1
-    // https://www.binancezh.com/gateway-api/v1/public/cms/article/catalog/list/query?catalogId=48&pageNo=1&pageSize=1
-    // https://www.binancezh.com/bapi/composite/v1/public/cms/article/latest/query
-
     public ParseNewListings(){
         this.endpointList = PrivateConfigMain.ENDPOINTSLIST;
     }
