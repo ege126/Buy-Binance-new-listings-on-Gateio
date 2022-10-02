@@ -9,7 +9,7 @@ You will find the following code block in PrivateConfigMain:
     public static final String GATE_SECRET_KEY = "";
 
 ```
-Paste your api key and secret key to ```GATE_API_KEY``` and ```GATE_SECRET_KEY```
+Paste your api key and secret key to ```GATE_API_KEY``` and ```GATE_SECRET_KEY```.
 Set your ```BUDGET``` in USDTs. You should have enough USDTs in your Gateio spot wallet, your ```BUDGET``` must be smaller or equal to the amount of USDTs in your spot wallet.
 
 # Execution
